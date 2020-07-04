@@ -7,12 +7,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
-  rabbitmq:
-    host: 192.168.58.130
-    port: 5672
-    username: admin
-    password: 1111
-    virtual-host: /
+rabbitmq:
+   host: 192.168.58.130
+   port: 5672
+   username: admin
+   password: 1111
+   virtual-host: /
 fdfs:
   so-timeout: 1501 # 超时时间
   connect-timeout: 601 # 连接超时时间
