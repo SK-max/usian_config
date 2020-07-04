@@ -1,6 +1,6 @@
 spring:
   application:
-    name: usian-item-service
+    name: usian-item-service111
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.58.130:3306/h1906b?characterEncoding=UTF-8
